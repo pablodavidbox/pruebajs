@@ -1,4 +1,4 @@
-const salarioscol = colombia.map(
+const salarioscol = argentina.map(
     function (personita) {
         
     }

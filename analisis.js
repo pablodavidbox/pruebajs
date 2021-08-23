@@ -1,16 +1,4 @@
-const salariosArg = argentina.map(
-    function (personita) {
-        return personita.salary;
-    }
-
-);
-
-const salariosArgSorted = salariosArg.sort(
-    function (salaryA, salaryB) {
-           return salaryA - salaryB;
-    }
-);
-
+// Funciones Helpers
 
 ////////////////////////////////
 // Te dice si es un numero par
@@ -28,6 +16,22 @@ function calcularMediaAritmetica(lista) {
     const promedioLista = sumaLista / lista.length;
     return promedioLista;
 }
+//////////////////////////////////////////////////////////
+
+const salariosArg = argentina.map(
+    function (personita) {
+        return personita.salary;
+    }
+
+);
+
+const salariosArgSorted = salariosArg.sort(
+    function (salaryA, salaryB) {
+           return salaryA - salaryB;
+    }
+);
+
+
 
 ////////////////////////////////////////////////////////////////////////
 
@@ -46,7 +50,10 @@ function medianaSalarios(lista) {
     
 }
 
+const medianaGeneralArg = medianaSalarios(salariosArgSorted);
 
-console.log(
-    medianaSalarios(salariosArgSorted)
-)
+console.log({
+
+    medianaGeneralArg,
+    medianaTop10Arg,
+})

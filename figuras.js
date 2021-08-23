@@ -13,7 +13,9 @@ const areaCuadrado = ladoCuadrado * ladoCuadrado;
 console.log("El area del cuadrado es:"+areaCuadrado);
 
 console.groupEnd();
-// Codigo del Triangulo 
+// Codigo del Triangulo ------------------------------------------------
+//================================================================
+//================================================================
 console.group("Triangulo");
 const ladoTriangulo1 = 6; 
 const ladoTriangulo2 = 6;

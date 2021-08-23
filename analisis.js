@@ -50,6 +50,15 @@ function medianaSalarios(lista) {
     
 }
 
+
+// Mediana del Top 10 % 
+
+const arrayEjemplo = [0,1,2,3,4,5,6,7,8,9,10];
+
+const salariosArgTop10 = salariosArgSorted.splice()
+
+
+
 const medianaGeneralArg = medianaSalarios(salariosArgSorted);
 
 console.log({
